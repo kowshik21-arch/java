@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class cinema {
-    public static void main(){
+    public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
         int ticket=sc.nextInt();
         int snaks=sc.nextInt();
@@ -10,3 +10,4 @@ public class cinema {
         System.out.print(finalrevenue);
     }
 }
+
